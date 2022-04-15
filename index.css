@@ -1,0 +1,55 @@
+h5 {
+  margin-bottom: 0px;
+}
+body {
+  background-color: #800000;
+}
+.con {
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 2%;
+  background-color: rgb(227, 227, 227);
+  border-radius: 8px;
+  border: 3px solid rgb(166, 166, 166);
+}
+:root {
+  --danger: #008011;
+}
+.bar {
+  width: 100%;
+  background-color: #800000;
+  margin-right: none;
+  height: 50rem;
+  overflow: hidden;
+}
+
+.welcome-image{
+    position: absolute;
+    top: 10px;
+}
+
+.image {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  top: 0rem;
+}
+
+.btn-yellow {
+  background-color: rgb(213, 206, 0);
+  color: black;
+  transition: 0.3s;
+}
+.btn-yellow:hover {
+  background-color: maroon;
+  border: 3px solid rgb(213, 206, 0);
+  color: white;
+}
+
+footer {
+  background-color: #670000;
+  margin-bottom: 0px;
+  margin-top: 5rem;
+}
